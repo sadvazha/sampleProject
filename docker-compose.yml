@@ -1,0 +1,17 @@
+version: "3.7"
+services:
+  webapp:
+    build: .
+    volumes:
+    - .:/root/app
+    - /root/app/node_modules
+    ports: 
+    - 8000:8000
+  redis:
+    image: redis
+    ports: 
+    - 6379:6379
+  mongodb:
+    image: mongo
+    ports: 
+    - 27017:27017

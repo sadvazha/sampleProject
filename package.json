@@ -1,0 +1,35 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "Sample project",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.10",
+    "nodemon": "^2.0.2",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sadvazha/sampleProject.git"
+  },
+  "keywords": [
+    "sample"
+  ],
+  "author": "Zhanybek Sadvakassov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sadvazha/sampleProject/issues"
+  },
+  "homepage": "https://github.com/sadvazha/sampleProject#readme"
+}
